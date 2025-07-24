@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         jiraClockify.user.js
+// @name         JiraClockify.user.js
 // @namespace    http://tampermonkey.net/
 // @version      4.3
 // @description  Adds a draggable and minimizable Clockify shortcut panel to Jira tickets.
@@ -11,6 +11,8 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_notification
 // @grant        GM_xmlhttpRequest
+// @downloadURL  https://github.com/rmagana-360/Test/raw/refs/heads/main/jiraClockify.user.js
+// @updateURL    https://github.com/rmagana-360/Test/raw/refs/heads/main/jiraClockify.user.js
 // ==/UserScript==
 
 (function() {
