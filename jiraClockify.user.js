@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JiraClockify.user.js
 // @namespace    http://tampermonkey.net/
-// @version      4.3
+// @version      4.4
 // @description  Adds a draggable and minimizable Clockify shortcut panel to Jira tickets.
 // @author       Romain Magana
 // @match        https://jira.sm360.ca/browse/*
@@ -248,6 +248,8 @@
             }
         }, 1500);
     });
+    // TEST UPDATE OU PAS
+    console.log('test');
 
     GM_registerMenuCommand('Configurer/Changer la clé API Clockify', setupConfiguration);
 })();
